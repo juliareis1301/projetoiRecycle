@@ -12,6 +12,5 @@ public class Organic_main extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_organic_main);
-        Objects.requireNonNull(getSupportActionBar()).hide();
     }
 }
