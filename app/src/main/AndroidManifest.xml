@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" >
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/fundoimg00"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ProjetoIRecicle"
+        tools:targetApi="31" >
+        <activity
+            android:name=".localizar_ecoponto"
+            android:exported="false" />
+        <activity
+            android:name=".reutilizacao_eletronico"
+            android:exported="false" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".reutilizacao" />
+        </activity>
+        <activity
+            android:name=".splash"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".reutilizacao_aluminio"
+            android:exported="false" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".reutilizacao" />
+        </activity>
+        <activity
+            android:name=".reutilizacao_plastico"
+            android:exported="false" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".reutilizacao" />
+        </activity>
+        <activity
+            android:name=".reutilizacao_vidro"
+            android:exported="false" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".reutilizacao" />
+        </activity>
+        <activity
+            android:name=".reutilizacao_papel"
+            android:exported="false" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".reutilizacao" />
+        </activity>
+        <activity
+            android:name=".reutilizacao_pneu"
+            android:exported="false" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".reutilizacao" />
+        </activity>
+        <activity
+            android:name=".reutilizacao"
+            android:exported="false" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".opcoes_reciclagem"
+            android:exported="false" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".radioativo_main"
+            android:exported="false" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".opcoes_reciclagem" />
+        </activity>
+        <activity
+            android:name=".toxico_main"
+            android:exported="false" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".opcoes_reciclagem" />
+        </activity>
+        <activity
+            android:name=".plastico_main"
+            android:exported="false" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".opcoes_reciclagem" />
+        </activity>
+        <activity
+            android:name=".hospitalar_main"
+            android:exported="false" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".opcoes_reciclagem" />
+        </activity>
+        <activity
+            android:name=".vidro_main"
+            android:exported="false" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".opcoes_reciclagem" />
+        </activity>
+        <activity
+            android:name=".metal_main"
+            android:exported="false" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".opcoes_reciclagem" />
+        </activity>
+        <activity
+            android:name=".papel_main"
+            android:exported="true"
+            android:label="@string/papel" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".opcoes_reciclagem" />
+        </activity>
+        <activity
+            android:name=".Organic_main"
+            android:exported="true"
+            android:label="@string/organico" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".opcoes_reciclagem" />
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/inicio" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCmHt1IFYcDkfIKiqbNiWOg6KqXyR1QW1E"/>
+    </application>
+
+
+</manifest>

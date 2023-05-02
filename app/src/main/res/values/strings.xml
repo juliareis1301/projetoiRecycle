@@ -1,0 +1,100 @@
+<resources>
+    <string name="app_name">iRecycle</string>
+    <string name="inicio">iRecycle</string>
+    <string name="reciclagem">Reciclagem</string>
+    <string name="reutilizacao">Reutilização</string>
+    <string name="organico">Orgânico</string>
+    <string name="papel">Papel</string>
+    <string name="plastico">Plástico</string>
+    <string name="vidro">Vidro</string>
+    <string name="metal">Metal</string>
+    <string name="toxico">Tóxico</string>
+    <string name="radioativo">Radioativo</string>
+    <string name="hospitalar">Hospitalar</string>
+    <string name="pneus">Reutilização de pneus</string>
+    <string name="btnLata">Lata</string>
+    <string name="btnlivro">Livro</string>
+    <string name="btnpneu"></string>
+    <string name="re_pneu">No Brasil, uma parte dos pneus inservíveis é reaproveitada de diversas formas, depois de ser moída e separada dos demais componentes do pneu, especialmente do aço, que também é reutilizado. Entre os produtos que reutilizam a borracha estão solados de sapato, materiais de vedação, dutos pluviais, pisos para quadras poliesportivas, pisos industriais e tapetes para automóveis. A borracha moída e separada também é misturada ao asfalto para uso em pavimentação, gerando o asfalto borracha, que apresenta importantes vantagens. A maioria é, no entanto, queimada como combustível alternativo nas indústrias de cimento.É muito importante que o consumidor tenha a consciência de não levar pneus velhos pra casa. Sempre que comprar um pneu novo, deixe o pneu inservível na loja, que tomará as providências necessárias para que o pneu chegue até algum ponto de coleta.</string>
+    <string name="btngarrafaplastica">Garrafa</string>
+    <string name="btngarrafa">Garaffa vidro</string>
+    <string name="garrafas">Reutilização de plástico</string>
+    <string name="roupas">Reutilização de roupas</string>
+    <string name="aluminio">Reutilização de alumínio</string>
+    <string name="saudacoes">Olá! seja bem-vindo(a) ao iRecycle</string>
+    <string name="fundo">imagem de fundo</string>
+    <string name="desc_organico">O lixo orgânico é todo resíduo de origem animal ou vegetal, como restos de alimentos, cascas de frutas e legumes, folhas, galhos, entre outros. Esse tipo de lixo é biodegradável, ou seja, pode se decompor naturalmente por meio de microorganismos e se tornar adubo para o solo."</string>
+    <string name="descarte_organico">o destino ideal para resíduos orgânicos é ser reciclado por meio de processos como a compostagem ou a biodigestão, que praticamente eliminam os problemas encontrados em lixões e aterros sanitários e devolvem aos resíduos orgânicos seu papel natural de fertilizar os solos</string>
+    <string name="seta1">seta</string>
+    <string name="setaa">seta</string>
+    <string name="img_organico">lixo orgânico</string>
+    <string name="desc_seta">seta apontando para descrição do lixo</string>
+    <string name="sub_titulo">Descarte</string>
+    <string name="desc_papel">O lixo papel é todo resíduo de papel, como folhas de caderno, revistas, jornais, embalagens, caixas, entre outros. O papel é um material reciclável, ou seja, pode ser transformado em novos produtos a partir do seu reaproveitamento.</string>
+    <string name="descarte_papel">Ao invés de jogar o papel no lixo comum, ele deve ser separado e destinado para a coleta seletiva ou entregue a cooperativas de reciclagem.No processo de reciclagem de papel, o material é desfibrado e transformado em uma polpa de celulose que é utilizada para a produção de novas folhas de papel. Esse processo é econômico e sustentável, já que a reciclagem de papel evita o corte de árvores e a poluição do ar e da água causada pelo descarte incorreto.</string>
+    <string name="img_papel">lixo papel</string>
+    <string name="desc_plastico">Trata-se de um tipo de plástico sintético que pode ser aquecido sem que as suas propriedades químicas sejam alteradas. Desse modo, pode ser reciclado, pois o material pode ser moldado em outros formatos. São enquadrados nessa categoria o PET, PEAD, PVC, PEBD, PP, PS e alguns biodegradáveis.</string>
+    <string name="descarte_plastico">Alem da higienização dos objetos, o ideal é manter os plásticos utilizados em uma sacola. Isso facilita a coleta pelos catadores e evita a contaminação a partir de outros resíduos. É importante que os resíduos estejam em uma única lixeira, podendo, assim, serem recolhidos pela coleta seletiva.</string>
+    <string name="desc_metal">Embalagens de produtos enlatados: latas de milho e molhos, latas de sucos, refrigerantes e cervejas, entre outros produtos, devem sempre ser higienizados para a reciclagem. Agulhas, clips, grampos e esponjas de aço não são recicláveis.   </string>
+    <string name="descarte_metal">Descarte-os no cesto de recicláveis ou no cesto específico (cor amarela). Não é preciso separar por tipo de embalagem ou utensílio. Cuidados especiais: Retire os restos orgânicos ou de produtos, pois as embalagens devem estar sempre vazias.</string>
+    <string name="desc_vidro">Atualmente, algumas cooperativas já trabalham reciclando laminados, espelhos e vidros temperados, que costumam deixar o processo mais caro e trabalhos.</string>
+    <string name="descarte_vidro">É importante se atentar para o descarte de vidros quebrados, sempre que esse for o caso, o ideal é colocar os cacos em embalagens plásticas resistentes e sinalizar possíveis acidentes. Lâmpadas não são recicláveis, lojas que vendem esse material devem possuir postos de coleta para o descarte correto.</string>
+    <string name="desc_hospitalar">O que descartar: Resíduos infectantes, Resíduos químicos, Gessos, Luvas, Gazes, Materiais Perfurocortantes como Lâminas, Bisturis, Agulhas, Ampolas etc.</string>
+    <string name="decarte_hospitalar">Diferentemente do lixo doméstico, eles não podem ficar expostos nas calçadas ou em qualquer lugar a céu aberto, e não são recolhidos pelos caminhões de coleta de lixo comum. Os estabelecimentos devem contratar uma empresa especializada no recolhimento desses resíduos que oferecem riscos à saúde e ao meio ambiente.</string>
+    <string name="desc_toxico">Algumas das substâncias que podem ser consideradas lixo tóxico incluem pilhas, baterias, materiais eletrônicos, metais pesados como chumbo e mercúrio, produtos químicos como ácido clorídrico e amônia, produtos químicos usados em produtos de limpeza e solventes, e resíduos nucleares. </string>
+    <string name="descarte_toxico">Leve até o local de coleta mais próximo de você: pilhas, baterias, toner de impressão, embalagens de inseticidas, tintas, cola, solventes, remédios vencidos até 10 kg, lâmpadas fluorescentes até 10 unidades, equipamentos eletrônicos portáteis, óleos de origem animal e vegetal embalados em garrafas PET de 2 litros.</string>
+    <string name="desc_radioativo">O lixo radioativo é um tipo de resíduo que contém substâncias radioativas, ou seja, que emitem radiação. Esse tipo de resíduo é gerado principalmente por atividades relacionadas à produção de energia nuclear, como usinas nucleares, pesquisa científica e indústria nuclear.</string>
+    <string name="descarte_radioativo">O descarte de lixo radioativo é um processo delicado e deve ser feito com extrema precaução para evitar a exposição à radiação e a contaminação do meio ambiente. O método de descarte varia de acordo com o tipo e a quantidade de resíduo, podendo incluir depósito em aterros sanitários especiais, armazenamento em contêineres blindados, incineração e tratamentos químicos específicos.</string>
+    <string name="title_activity_inicio_main">inicio_main</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="btnLaranja"> botão Laranja</string>
+    <string name="btnVermelho">botão Vermelho</string>
+    <string name="btnAzul">botão Azul </string>
+    <string name="btnCinza">botão Cinza</string>
+    <string name="btnVerde">botão Verde</string>
+    <string name="btnAmarelo">botão Amarelo</string>
+    <string name="btnMarrom">botão Marrom</string>
+    <string name="btnRoxo">botão roxo</string>
+    <string name="reutilizacao_papel">Reutilização de papel</string>
+    <string name="reutilizacao_aluminio">Reutilização de alumínio</string>
+    <string name="re_papel">O papel em geral é constituído por fibras de origem vegetal. A fabricação do material requer algumas propriedades especiais do ponto de vista técnico e econômico, como alto conteúdo de celulose, baixo custo e fácil obtenção da matéria prima.No Brasil, a disponibilidade de aparas de papel é grande. Mesmo assim, as indústrias precisam periodicamente fazer importações de aparas para abastecer o mercado.O papel ondulado, também conhecido como corrugado representa forte contribuição da indústria brasileira ao meio ambiente. Essas embalagens são 100% recicláveis e biodegradáveis e causam baixo impacto ambiental em todos os estágios de seu ciclo de vida. Este ciclo de vida constitui uma cadeia praticamente fechada, na qual a embalagem usada é reciclada e novamente utilizada na fabricação de novas embalagens.</string>
+    <string name="reutilizacao_vidro">Reutilização de vidro</string>
+    <string name="re_vidro">Usando em sua formulação areia, calcário, barrilha e feldspato, o vidro é durável, inerte e tem alta taxa de reaproveitamento nas residências. Além disso, o material é de fácil reciclagem: pode voltar à produção de novas embalagens, substituindo totalmente o produto virgem sem perda de qualidade.O principal mercado para recipientes de vidros usados é formado pelas vidrarias, que compram o material de sucateiros na forma de cacos ou recebem diretamente de suas campanhas de reciclagem. Além de voltar à produção de embalagens, a sucata pode ser aplicada na composição de asfalto e pavimentação de estradas, construção de sistemas de drenagem contra enchentes, produção de espuma e fibra de vidro, bijuterias e tintas reflexivas.</string>
+    <string name="btntaca"></string>
+    <string name="reutilizacao_plastico">Reutilização de plástico</string>
+    <string name="re_plastico">O plástico é um polímero originado de uma fração do petróleo chamada nafta e também de fontes renováveis, como o plástico feito a partir do milho, da beterraba, da mandioca, da cana-de-açúcar, etc. O plástico se subdivide de acordo com a composição química.Para saber qual o tipo específico de plástico presente em algum produto, os fabricantes introduzem um triângulo com setas nos rótulos dos produtos. A simbologia têm a função de alertar os consumidores sobre o descarte seletivo, além de possibilitar a identificação do tipo de plástico que estamos consumindo.No Brasil, a norma técnica (NBR 13.230:2008) foi estabelecida de acordo com critérios internacionais. A numeração separa o material plástico em sete diferentes tipos (PET, PEAD, PVC, PEBD, PP, PS e OUTROS).</string>
+    <string name="re_aluminio">As latas de alumínio para bebidas merecem destaque na reciclagem, por terem alto consumo e um ciclo de vida muito mais curto que o apresentado por outros produtos de alumínio e de embalagens de outros materiais. A reciclagem da latinha tem levado o Brasil à liderança mundial na atividade por vários anosCom os esforços desempenhados pela cadeia de reciclagem – fabricantes de chapas, de latas, envasadores de bebidas, cooperativas e recicladoras – e pelo Governo, por meio da conscientização da população, o programa de reciclagem da lata de alumínio é hoje uma experiência de sucesso com grande influência social, econômica e ambiental. Esse resultado é fruto da conjugação de vários aspectos. O principal deles é o fato do país possuir um mercado de reciclagem já estabelecido em todas as suas regiões. Além disso, a facilidade na coleta, transporte e venda e o alto valor da sucata de alumínio, aliados à grande disponibilidade durante todo o ano, estimularam a reciclagem das latas de alumínio para bebidas, provocando também mudanças no comportamento do consumidor. É notória a importância das latas de alumínio para a atividade reciclagem no Brasil, já que, por reforçar a consciência ecológica da população, acaba por estimular a coleta de outros materiais</string>
+    <string name="re_eletronico">Reutilização de eletrônicos</string>
+    <string name="reutilizacao_eletronicos">A reutilização de eletrônicos é uma prática importante para reduzir o impacto ambiental e prolongar a vida útil desses equipamentos. Quando os eletrônicos são descartados em aterros sanitários, eles podem liberar substâncias tóxicas no solo e no ar, prejudicando o meio ambiente e a saúde humana.
+
+Algumas formas de reutilização de eletrônicos incluem:
+
+Doação: equipamentos eletrônicos que ainda estão funcionando podem ser doados para organizações sem fins lucrativos, escolas, bibliotecas e outras instituições que precisam deles.
+
+Revenda: equipamentos eletrônicos usados ​​que ainda estão em boas condições podem ser revendidos a preços mais baixos, proporcionando uma opção econômica para as pessoas que não podem pagar por um equipamento novo.
+
+Reparo: equipamentos eletrônicos que precisam de reparos podem ser consertados por técnicos especializados e revendidos ou doados para pessoas que precisam deles.
+
+Reciclagem: quando os eletrônicos não podem mais ser reutilizados, eles podem ser reciclados. O processo de reciclagem envolve a retirada de componentes perigosos e a separação de materiais que podem ser reutilizados, como metais e plásticos.
+
+A reutilização de eletrônicos é uma forma importante de reduzir o desperdício e preservar os recursos naturais. Além disso, essa prática pode ajudar a fornecer equipamentos para pessoas que não têm acesso a eles, tornando a tecnologia mais acessível para todos.</string>
+    <string name="btneletronicos"></string>
+
+    <style name="progressbarid"></style>
+
+    <string name="memoria">Jogo da Memória</string>
+    <string name="jogador1">Player 1:0</string>
+    <string name="jogador2">Player 2:0</string>
+
+    <style name="progressBar"></style>
+
+    <string name="ecoponto">Ecoponto mais proximo</string>
+</resources>

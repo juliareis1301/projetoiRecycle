@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F0F0"
+    android:textAlignment="center"
+    tools:context=".reutilizacao"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="171dp"
+            android:background="@drawable/verdeagua"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:id="@+id/view2"
+            style="@style/ContainerComponents"
+            android:layout_width="342dp"
+            android:layout_height="136dp"
+            android:layout_marginTop="44dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.492"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/toolbar" />
+
+        <TextView
+            android:id="@+id/reutilizacao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/reutilizacao"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toBottomOf="@+id/view2"
+            app:layout_constraintEnd_toEndOf="@+id/view2"
+            app:layout_constraintStart_toStartOf="@+id/view2"
+            app:layout_constraintTop_toTopOf="@+id/view2"
+            app:layout_constraintVertical_bias="0.526" />
+
+        <ImageButton
+            android:id="@+id/btnLata"
+            android:layout_width="127dp"
+            android:layout_height="115dp"
+            android:layout_marginStart="68dp"
+            android:layout_marginTop="32dp"
+            android:contentDescription="@string/btnVermelho"
+            android:scaleType="center"
+            android:src="@drawable/lata"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view2" />
+
+        <ImageButton
+            android:id="@+id/btnlivro"
+            android:layout_width="123dp"
+            android:layout_height="115dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="60dp"
+            android:contentDescription="@string/btnLaranja"
+            android:src="@drawable/livro"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/btnLata"
+            app:layout_constraintTop_toBottomOf="@+id/view2" />
+
+        <ImageButton
+            android:id="@+id/btntaca"
+            android:layout_width="128dp"
+            android:layout_height="115dp"
+            android:layout_marginStart="68dp"
+            android:layout_marginTop="20dp"
+            android:contentDescription="@string/btnAmarelo"
+            android:scaleType="center"
+            android:src="@drawable/vidrotaca"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/reutilizacao_papel" />
+
+        <ImageButton
+            android:id="@+id/btngarrafaplastica"
+            android:layout_width="123dp"
+            android:layout_height="115dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="60dp"
+            android:contentDescription="@string/btnVerde"
+            android:scaleType="center"
+            android:src="@drawable/garrafaplastica"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/btntaca"
+            app:layout_constraintTop_toBottomOf="@+id/reutilizacao_papel" />
+
+        <ImageButton
+            android:id="@+id/btnpneu"
+            android:layout_width="127dp"
+            android:layout_height="115dp"
+            android:layout_marginStart="68dp"
+            android:layout_marginTop="20dp"
+            android:contentDescription="@string/btnAzul"
+            android:src="@drawable/pneu"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/reutilizacao_vidro" />
+
+        <TextView
+            android:id="@+id/reutilizacao_aluminio"
+            android:layout_width="128dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="68dp"
+            android:layout_marginTop="4dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/reutilizacao_aluminio"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnLata" />
+
+        <TextView
+            android:id="@+id/reutilizacao_papel"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="64dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/reutilizacao_papel"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnlivro" />
+
+        <TextView
+            android:id="@+id/reutilizacao_vidro"
+            android:layout_width="128dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="68dp"
+            android:layout_marginTop="4dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/reutilizacao_vidro"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btntaca" />
+
+        <TextView
+            android:id="@+id/garrafas"
+            android:layout_width="122dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="64dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/garrafas"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btngarrafaplastica" />
+
+        <TextView
+            android:id="@+id/pneus"
+            android:layout_width="124dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="68dp"
+            android:layout_marginTop="4dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/pneus"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnpneu" />
+
+        <ImageButton
+            android:id="@+id/btneletronicos"
+            android:layout_width="127dp"
+            android:layout_height="115dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="60dp"
+            android:text="@string/re_eletronico"
+            android:scaleType="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/garrafas"
+            app:srcCompat="@drawable/celular"
+            />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="122dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="64dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/re_eletronico"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btneletronicos" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

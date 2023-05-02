@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item
+        android:id="@+id/itemReciclagem"
+        android:title="@string/reciclagem"
+        app:showAsAction="ifRoom"/>
+    <!--
+        <menu>
+            <item
+                android:id="@+id/itemOrganico"
+                android:title="@string/organico"
+                app:showAsAction="never"/>
+
+
+            <item
+                android:id="@+id/itemPapel"
+                android:title="@string/papel"
+                app:showAsAction="never"/>
+
+            <item
+                android:id="@+id/itemPlastico"
+                android:title="@string/plastico"
+                app:showAsAction="never"/>
+
+            <item
+                android:id="@+id/itemVidro"
+                android:title="@string/vidro"
+                app:showAsAction="never"/>
+
+            <item
+                android:id="@+id/itemMetal"
+                android:title="@string/metal"
+                app:showAsAction="never"/>
+            <item
+                android:id="@+id/itemToxico"
+                android:title="@string/toxico"
+                app:showAsAction="never"/>
+            <item
+                android:id="@+id/itemRadioativo"
+                android:title="@string/radioativo"
+                app:showAsAction="never"/>
+            <item
+                android:id="@+id/itemHospitalar"
+                android:title="@string/hospitalar"
+                app:showAsAction="never"/>
+        </menu>
+    </item>-->
+    <item
+        android:id="@+id/itemReutilizacao"
+        android:title="@string/reutilizacao"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/ecopontoItem"
+        android:title="@string/ecoponto"
+        app:showAsAction="never"/>
+<!--
+        <menu>
+            <item
+                android:id="@+id/itemPneus"
+                android:title="@string/pneus"
+                app:showAsAction="never"/>
+            <item
+                android:id="@+id/itemGarrafas"
+                android:title="@string/garrafas"
+                app:showAsAction="never"/>
+            <item
+                android:id="@+id/itemRoupas"
+                android:title="@string/roupas"
+                app:showAsAction="never"/>
+
+            <item
+                android:id="@+id/itemAluminio"
+                android:title="@string/aluminio"
+                app:showAsAction="never"/>
+        </menu>
+    </item>-->
+</menu>
